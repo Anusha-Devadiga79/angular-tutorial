@@ -11,8 +11,10 @@
       "prefix": "app",
       "architect": {
         "build": {
+          "index": "src/index.html",
           "builder": "@angular/build:application",
           "options": {
+            "outputPath": "dist/angular_tutorial",
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
